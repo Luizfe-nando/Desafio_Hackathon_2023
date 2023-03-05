@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reprograme-se</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/js/script.js" type="module" async></script>
+    <link rel="shortcut icon" href="/assets/img/logo-ifes/ifes-vertical-cor.png" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+                    aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <img src="/assets/img/logo-ifes/ifes-vertical-cor.png" width="100px" alt="imagem IFES" />
+
+                    <div class="container ">
+                        <div class="logo">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="formacao.html">Formação/Grade curricular</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="depoimentos.html">Depoimento dos alunos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="inscricao.html">Inscrição para o próximo curso</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="eventos.html">Agenda de eventos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="noticias.html">Notícias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="parceiros.html">Parceiros no Reprograme-se</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="duvidas.html">Dúvidas Frequentes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="formulario.html">Reclamação/Sugestões<br>Dúvidas/outros</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item mx-2 my-1">
+                                    <a id="font-size-plus-link" class="nav-link font-size-plus btn  btn-sm"
+                                        href="#">Aumentar
+                                        Fonte</a>
+                                </li>
+                                <li class="nav-item mx-2 my-1">
+                                    <a id="font-size-minus-link" class="nav-link font-size-minus btn btn-sm"
+                                        href="#">Diminuir
+                                        Fonte</a>
+                                </li>
+                                <li class="nav-item mx-2 my-1">
+                                    <a id="high-contrast-link" class="nav-link high-contrast btn btn-sm" href="#">Alto
+                                        Contraste</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container mt-3 mb-3 text-center">
+            <img src="/assets/img/logo-reprogramese/preferencial-horizontal.png" alt="Descrição da imagem"
+                class="img-fluid" width="300px" height="150px">
+            <h2>Reclamações e Sugestões</h2>
+            <p class="lead mb-4">Seja bem-vindo à nossa escola de desenvolvimento web REPROGRAME-SE! Sua opinião é muito
+                importante para nós e gostaríamos de ouvir suas sugestões e críticas para aprimorar ainda mais nosso
+                trabalho. Por favor, preencha o formulário abaixo com suas considerações. Estamos ansiosos para ouvi-las
+                e melhorar a cada dia mais.</p>
+        </div>
+
+        <div class="container mt-4 form-container rounded-lg shadow-lg">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="my-2" for="nome">Nome:</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="my-2" for="email">E-mail:</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="my-2" for="assunto">Assunto:</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="assunto" placeholder="Digite o assunto">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fa fa-pencil"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="my-2" for="mensagem">Mensagem:</label>
+                    <div class="input-group">
+                        <textarea class="form-control" id="mensagem" rows="5"
+                            placeholder="Digite a mensagem"></textarea>
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fa fa-comment"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-custom btn-sm my-3">Enviar</button>
+
+                <div>
+                    <a href="mailto:contato@reprograme-se.org.br" class="btn btn-custom btn-sm my-3">
+                        Dúvidas e Sugestões pelo EMAIL
+                        <span class="badge bg-light text-dark"><i class="fa fa-envelope"></i></span>
+                    </a>
+
+                </div>
+            </form>
+            <p class="text-center small">Todas as reclamações serão mantidas em sigilo.</p>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </main>
+
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <div class="d-flex justify-content-center mb-3 my-3">
+                        <img src="/assets/img/logo-reprogramese/preferencial-horizontal-preta.png"
+                            alt="Descrição da imagem" class="img-fluid" width="150px" height="100px">
+                    </div>
+
+                    <div class="d-flex justify-content-center mb-3 my-3">
+                        <img src="/assets/img/logo-action/horizontal-positiva.png" alt="Descrição da imagem"
+                            class="img-fluid" width="150px" height="100px">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 mt-4 text-center">
+                    <h5 class="text-uppercase">Links úteis</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://chat.whatsapp.com/" class="text-dark">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">YouTube</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Twiter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 mt-4 text-center">
+                    <h5 class="text-uppercase mb-0">Contato</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p><strong>Endereço:</strong> Avenida Rio Branco,<br> nº 50 – Santa Lúcia <br> Vitória - ES
+                                <br> CEP:
+                                29056-264 - Brasil
+                            </p>
+                        </li>
+                        <li>
+                            <p><strong>Central de atendimento:</strong> 27 3357-7500</p>
+                        </li>
+                        <li>
+                            <p><strong>Atendimento ao cliente:</strong> contato@seudominio.com.br</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+
+            <span class="footer-text">© 2023 INSTITUTO FEDERAL - Todos os direitos reservados.</span>
+
+        </div>
+    </footer>
+</body>
+
+</html>
